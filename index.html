@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario de contacto</title>
+</head>
+<body>
+  <h2>Formulario simple conectado a n8n</h2>
+  <form action="https://b19d0b379fc8.ngrok-free.app/webhook-test/formulario-registro" method="post">
+    <label for="nombre">Nombre:</label><br />
+    <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="edad">Edad:</label><br />
+    <input type="number" id="edad" name="edad" required /><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
